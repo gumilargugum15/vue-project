@@ -7,6 +7,7 @@
     Country: {{ country.name }}<br>
     Capital: {{ country.capital }}
   </p-->
+  test
   <p v-for="user in users" :key="user.firstName">
     {{ user.firstName }} {{ user.lastName }}
   </p>
