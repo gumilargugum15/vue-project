@@ -5,7 +5,7 @@
     <InputText type="text" v-model="value" />
     <input type="email"    placeholder="Email"    required v-model="email">
     <input type="password" placeholder="Password" required v-model="password">
-    <button>Log in</button>
+    <button type="button" class="btn btn-primary">Login</button>
   </form>
   
 </template>
